@@ -1,0 +1,56 @@
+# depslib dependency file v1.0
+1561348912 source:c:\users\diego\desktop\2doo parcial\tp3+linkedlist mio\tp3\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+	"funciones.h"
+
+1560267527 c:\users\diego\desktop\2doo parcial\tp3+linkedlist mio\tp3\linkedlist.h
+
+1561348912 c:\users\diego\desktop\2doo parcial\tp3+linkedlist mio\tp3\employee.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1561348912 c:\users\diego\desktop\2doo parcial\tp3+linkedlist mio\tp3\parser.h
+
+1560566604 c:\users\diego\desktop\2doo parcial\tp3+linkedlist mio\tp3\funciones.h
+	<string.h>
+
+1561348912 source:c:\users\diego\desktop\2doo parcial\tp3+linkedlist mio\tp3\employee.c
+	"Employee.h"
+	"string.h"
+	"LinkedList.h"
+
+1560566604 source:c:\users\diego\desktop\2doo parcial\tp3+linkedlist mio\tp3\funciones.c
+	"funciones.h"
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+
+1561348912 source:c:\users\diego\desktop\2doo parcial\tp3+linkedlist mio\tp3\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+
+1561348912 c:\users\diego\desktop\2doo parcial\tp3+linkedlist mio\tp3\controller.h
+	"funciones.h"
+	"parser.h"
+
+1561348912 source:c:\users\diego\desktop\2doo parcial\tp3+linkedlist mio\tp3\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1561349058 source:c:\users\diego\desktop\2doo parcial\tp3+linkedlist mio\tp3\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
