@@ -31,7 +31,6 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="../LinkedList.h" />
 		<Unit filename="Controller.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -40,6 +39,14 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="Employee.h" />
+		<Unit filename="LinkedList.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LinkedList.h" />
+		<Unit filename="funciones.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="funciones.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

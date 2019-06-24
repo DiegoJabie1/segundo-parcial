@@ -60,14 +60,14 @@ int controller_addEmployee(LinkedList* pArrayListEmployee)
     Employee* newEmployee=employee_new();
     Employee* aux;
 
-    pedirCadena("nombre: ",auxName,128);
+    pedirCadena(" nombre: ",auxName,128);
     primerLetraMayuscula(auxName);
     employee_setNombre(newEmployee,auxName);
 
-    auxSalary=pedirEntero("sueldo: $",0,1215752190);
+    auxSalary=pedirEntero(" sueldo: $",0,1215752190);
     employee_setSueldo(newEmployee,auxSalary);
 
-    auxHours=pedirEntero("horas trabajadas: ",1,730);
+    auxHours=pedirEntero(" horas trabajadas: ",1,730);
     employee_setHorasTrabajadas(newEmployee,auxHours);
 
     for(i=0;i<ll_len(pArrayListEmployee);i++)
@@ -82,8 +82,12 @@ int controller_addEmployee(LinkedList* pArrayListEmployee)
 
     employee_setId(newEmployee,aux->id+1);
     ll_add(pArrayListEmployee,newEmployee);
-
     returnAux=1;
+
+    system("cls");
+    printf("\n\n::::::::::::::::::::::::::::::\nSE AGREGO EMPLEADO CON EXITO\n::::::::::::::::::::::::::::::\n\n");
+    system("pause");
+    system("cls");
 
     return returnAux;
 }
