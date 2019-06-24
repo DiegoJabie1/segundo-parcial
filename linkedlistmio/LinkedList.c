@@ -487,7 +487,6 @@ int ll_containsAll(LinkedList* this,LinkedList* this2)
                     }
         }
 
-
     return returnAux;
 }
 
@@ -507,9 +506,8 @@ LinkedList* ll_subList(LinkedList* this,int from,int to)
 
     int len = ll_len(this);
 
-    if(this != NULL && from > -1 && from < len && to > from && to <= len)
+    if(this != NULL && from >= 0 && from < len && to > from && to <= len)
     {
-
         cloneArray = ll_newLinkedList();
 
         for(int i = from; i < to; i++)
@@ -518,14 +516,12 @@ LinkedList* ll_subList(LinkedList* this,int from,int to)
             void* pElement = ll_get(this, i);
 
             if(pElement != NULL)
-            {
                 ll_add(cloneArray, pElement);
-            }
         }
+    }
 
-    }
-        return cloneArray;
-    }
+    return cloneArray;
+}
 
 
 
@@ -539,12 +535,10 @@ LinkedList* ll_clone(LinkedList* this)
 {
     LinkedList* cloneArray = NULL;
 
-    int len=ll_len(this);
-
     if(this!=NULL)
-    {
-        cloneArray = ll_subList(this, 0, len);
-    }
+        {
+            cloneArray=ll_subList(this,0,ll_len(this));
+        }
 
     return cloneArray;
 }
@@ -557,7 +551,7 @@ LinkedList* ll_clone(LinkedList* this)
  * \return int Retorna  (-1) Error: si el puntero a la listas es NULL
                                 ( 0) Si ok
  */
-int ll_sort(LinkedList* this, int (*pFunc)(void*,void*), int order)
+int ll_sort(LinkedList* this, int (*pFunc)(void* ,void*), int order)
 {
     int returnAux =-1;
     int i;
@@ -584,7 +578,6 @@ int ll_sort(LinkedList* this, int (*pFunc)(void*,void*), int order)
         }
         while(returnAux);
     }
-
     return returnAux;
 }
 
