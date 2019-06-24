@@ -1,0 +1,221 @@
+# depslib dependency file v1.0
+1561350050 source:c:\users\diego\desktop\2doo parcial\tp3+linkedlist mio\tp3\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+	"funciones.h"
+
+1560267527 c:\users\diego\desktop\2doo parcial\tp3+linkedlist mio\tp3\linkedlist.h
+
+1561348912 c:\users\diego\desktop\2doo parcial\tp3+linkedlist mio\tp3\employee.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1561348912 c:\users\diego\desktop\2doo parcial\tp3+linkedlist mio\tp3\parser.h
+
+1560566604 c:\users\diego\desktop\2doo parcial\tp3+linkedlist mio\tp3\funciones.h
+	<string.h>
+
+1561348912 source:c:\users\diego\desktop\2doo parcial\tp3+linkedlist mio\tp3\employee.c
+	"Employee.h"
+	"string.h"
+	"LinkedList.h"
+
+1560566604 source:c:\users\diego\desktop\2doo parcial\tp3+linkedlist mio\tp3\funciones.c
+	"funciones.h"
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+
+1561350073 source:c:\users\diego\desktop\2doo parcial\tp3+linkedlist mio\tp3\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+
+1561348912 c:\users\diego\desktop\2doo parcial\tp3+linkedlist mio\tp3\controller.h
+	"funciones.h"
+	"parser.h"
+
+1561348912 source:c:\users\diego\desktop\2doo parcial\tp3+linkedlist mio\tp3\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1561349833 source:c:\users\diego\desktop\2doo parcial\tp3+linkedlist mio\tp3\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1561350451 source:c:\users\diego\desktop\2do parcial\tp_laboratorio_4-master\tp3+linkedlist mio\tp3\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+	"funciones.h"
+
+1561350451 c:\users\diego\desktop\2do parcial\tp_laboratorio_4-master\tp3+linkedlist mio\tp3\linkedlist.h
+
+1561350451 c:\users\diego\desktop\2do parcial\tp_laboratorio_4-master\tp3+linkedlist mio\tp3\employee.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1561350451 c:\users\diego\desktop\2do parcial\tp_laboratorio_4-master\tp3+linkedlist mio\tp3\parser.h
+
+1561350451 c:\users\diego\desktop\2do parcial\tp_laboratorio_4-master\tp3+linkedlist mio\tp3\funciones.h
+	<string.h>
+
+1561350451 source:c:\users\diego\desktop\2do parcial\tp_laboratorio_4-master\tp3+linkedlist mio\tp3\employee.c
+	"Employee.h"
+	"string.h"
+	"LinkedList.h"
+
+1561350451 source:c:\users\diego\desktop\2do parcial\tp_laboratorio_4-master\tp3+linkedlist mio\tp3\funciones.c
+	"funciones.h"
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+
+1561350451 source:c:\users\diego\desktop\2do parcial\tp_laboratorio_4-master\tp3+linkedlist mio\tp3\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1561350451 source:c:\users\diego\desktop\2do parcial\tp_laboratorio_4-master\tp3+linkedlist mio\tp3\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1561350706 source:c:\users\diego\desktop\2do parcial\tp_laboratorio_4-master\tp3+linkedlist mio\tp3\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+
+1561350451 c:\users\diego\desktop\2do parcial\tp_laboratorio_4-master\tp3+linkedlist mio\tp3\controller.h
+	"funciones.h"
+	"parser.h"
+
+1561350709 source:c:\users\alumno\desktop\tp_laboratorio_4-master\tp3+linkedlist mio\tp3\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+	"funciones.h"
+
+1561350709 c:\users\alumno\desktop\tp_laboratorio_4-master\tp3+linkedlist mio\tp3\linkedlist.h
+
+1561350709 c:\users\alumno\desktop\tp_laboratorio_4-master\tp3+linkedlist mio\tp3\employee.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1561350709 c:\users\alumno\desktop\tp_laboratorio_4-master\tp3+linkedlist mio\tp3\parser.h
+
+1561350709 c:\users\alumno\desktop\tp_laboratorio_4-master\tp3+linkedlist mio\tp3\funciones.h
+	<string.h>
+
+1561350709 source:c:\users\alumno\desktop\tp_laboratorio_4-master\tp3+linkedlist mio\tp3\employee.c
+	"Employee.h"
+	"string.h"
+	"LinkedList.h"
+
+1561350709 source:c:\users\alumno\desktop\tp_laboratorio_4-master\tp3+linkedlist mio\tp3\funciones.c
+	"funciones.h"
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+
+1561350709 source:c:\users\alumno\desktop\tp_laboratorio_4-master\tp3+linkedlist mio\tp3\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1561350709 source:c:\users\alumno\desktop\tp_laboratorio_4-master\tp3+linkedlist mio\tp3\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+
+1561350709 c:\users\alumno\desktop\tp_laboratorio_4-master\tp3+linkedlist mio\tp3\controller.h
+	"funciones.h"
+	"parser.h"
+
+1561378088 source:c:\users\alumno\desktop\tp_laboratorio_4-master\tp3+linkedlist mio\tp3\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1561388067 source:d:\rodriguez jabie\segundo parcial\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+	"funciones.h"
+
+1561387495 d:\rodriguez jabie\segundo parcial\linkedlist.h
+
+1561387361 d:\rodriguez jabie\segundo parcial\employee.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1561381364 d:\rodriguez jabie\segundo parcial\parser.h
+
+1561350709 d:\rodriguez jabie\segundo parcial\funciones.h
+	<string.h>
+
+1561387994 source:d:\rodriguez jabie\segundo parcial\employee.c
+	"Employee.h"
+	"string.h"
+	"LinkedList.h"
+
+1561350709 source:d:\rodriguez jabie\segundo parcial\funciones.c
+	"funciones.h"
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+
+1561379930 source:d:\rodriguez jabie\segundo parcial\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1561386367 source:d:\rodriguez jabie\segundo parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+
+1561388067 d:\rodriguez jabie\segundo parcial\controller.h
+	"funciones.h"
+	"parser.h"
+
+1561381870 source:d:\rodriguez jabie\segundo parcial\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
