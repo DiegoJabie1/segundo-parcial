@@ -100,12 +100,22 @@ int main()
             }
             break;
         case 6:
-            system("cls");
-            printf("                        ----MOSTRAR LISTA----\n");
-            controller_ListEmployee(listaEmpleados);
-            printf("\n\n");
-            system("pause");
-            system("cls");
+
+          if(flag)
+            {
+                 system("cls");
+                printf("                        ----MOSTRAR LISTA----\n");
+                controller_ListEmployee(listaEmpleados);
+                printf("\n\n");
+                system("pause");
+                system("cls");
+            }
+            else
+            {
+                printf("\n\nCARGUE LOS EMPLEADOS PRIMERO PARA MOSTRAR LA LISTA.\n\n");
+                system("pause");
+                system("cls");
+            }
             break;
         case 7:
             if(flag)
